@@ -1,0 +1,22 @@
+{
+    "id" : 1,   
+    "category" : 1, 
+    "status" : 0,   
+    "name" : "Áo thun 1",
+    "price" : 42,
+    "img" : "f1.jpg",
+    "details" : 'đây là mô tả'
+}
+
+----------------------------------------------------------------
+
+category = 1 = áo phông
+         = 2 = áo thun
+         = 3 = đồ bộ
+         = 4 = hoodie
+         = 5 = quần jean
+         = 6 = quần ngắn
+         = 7 = sơ mi
+
+status   = 0 = đồ không phải mới nhập
+         = 1 = đồ mới nhập

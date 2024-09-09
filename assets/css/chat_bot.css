@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.chat-container {
+    position: fixed;
+    bottom: 10px;
+    left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.chat-button {
+    width: 65px;
+    height: 65px;
+    background-color: #6c96e5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.chat-button:hover {
+    background-color: #0056b3;
+}
+
+.chat-button img {
+    width: 42px;
+    height: 42px;
+}
+
+.chat-widget {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    display: none;
+    flex-direction: column;
+    animation: fadeIn 0.3s;
+    margin-bottom: 60px; /* Điều chỉnh giá trị này để giãn cách tiện ích trò chuyện khỏi nút trò chuyện*/
+}
+
+.chat-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #fbfafc;
+    border-bottom: 1px solid #ccc;
+}
+
+.chat-header .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.chat-body {
+    padding: 10px;
+    height: 150px;
+    overflow-y: scroll;
+    background-image: url('/assets/imgs/chatbot/BGChat2.png'); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+.chat-body p {
+    color: black; 
+}
+
+
+.chat-footer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    background-color: #d9d3e1;
+}
+
+.chat-footer input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.chat-footer button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.chat-footer button:hover {
+    background-color: #0056b3;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);  /* biến đổi tỉ lệ */
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

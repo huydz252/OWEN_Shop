@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="icon" href="assets/imgs/icon_shoppe.png" type="image/png">
+    <title>Owen</title>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="assets\font\fontawesome-free-6.5.2-web\css\all.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/chat_bot.css">
+
+</head>
+<body>
+
+    <!-- navbar -->
+    <section id="header">
+        <a class="logo" href="index.html">
+            <img src="assets/imgs/logo.png" alt="">
+        </a>
+        <div id="navbar">
+            <ul>
+                <li class="search-navbar">
+                    <input type="text" placeholder="tìm kiếm sản phẩm" class="search-input">
+                    <div>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag">
+                    <a href="cart.html">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="totalProduct"></span> 
+                    </a>   
+                </li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-outdent"></i>
+        </div>
+    </section>
+
+    <div id="just-delete">
+        <!-- Home page -->
+        <section id="page-header" class="shop-header">
+            <h2>#shop</h2>
+            <p>Tiết kiệm nhiều hơn với phiếu giảm giá & giảm giá tới 70%</p>
+        </section>
+    
+        <!-- Product -->
+        <section id="product1" class="section-p1">
+            <div class="pro-container all-pro">
+
+            </div>
+        </section>
+        <!-- New Product -->
+        <section id="product1" class="section-p1">
+            <div class="pro-container new-pro">
+                
+            </div>
+        </section>
+
+        <!--Phantrang-->
+        <section id="pagination" class="section-p1">
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href=""><i class="fa fa-long-arrow-alt-right"></i></a>
+        </section>
+    </div>
+
+    <!-- search -->
+    <section id="product1" class="section-p1">
+        <div class="pro-container2" id="search-pro">
+            
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section id="footer">
+        <div class="info-contacts">
+            <img src="assets\imgs\logo.png" alt="">
+            <strong>Thông tin liên hệ</strong>
+            <p><strong>Địa chỉ:</strong>Viet Nam, Da Nang city, Quan Ngu Hanh Son</p>
+            <p><strong>Số điện thoại: </strong> 0813118974</p>
+            <p><strong>Email: </strong>252quanghuy@gmail.com</p>
+            <p><strong>Giờ: </strong>9:00-21:00, Mon-Sat</p>
+            <div class="follow-us">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+        <div class="contact-abouts">
+            <strong>Liên hệ</strong>
+            <p>Về chúng tôi</p>
+            <p>Thông tin giao hàng</p>
+            <p>Chính sách bảo mật</p>
+            <p>Điều khoản & Điều kiện</p>
+            <p>Liên hệ chúng tôi</p>
+        </div>
+        <div class="our-account">
+            <strong>Tài khoản của tôi</strong>
+            <p>Đăng nhập</p>
+            <p>Xem giỏ hàng</p>
+            <p>Sản phẩm yêu thích</p>
+            <p>Theo dõi đơn hàng của tôi</p>
+            <p>Trợ giúp</p>
+        </div>
+        <div class="dowload-app">
+            <strong>Tải ứng dụng</strong>
+            <p>Từ App Store hoặc Google Play</p>
+            <div class="imgs-dowload">
+                <img src="assets\imgs\pay\app.jpg" alt="">
+                <img src="assets\imgs\pay\play.jpg" alt="">
+            </div>
+            <p>Cổng thanh toán an toàn</p>
+            <div class="pay">
+                <img src="assets\imgs\pay\pay.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <div class="chat-container">
+        <div class="chat-button" id="chat-button">
+            <img src="assets/imgs/chatbot/messenger.png" alt="Chat Icon">
+        </div>
+        <div class="chat-widget" id="chat-widget">
+            <div class="chat-header">
+                <img src="assets/imgs/chatbot/avatar.jpg" alt="Avatar" class="avatar">
+                <span>Nhân viên chăm sóc từ OWEN</span>
+            </div>
+            <div class="chat-body" id="chat-body">
+                <p style="color: red;">Xin chào! 
+                <br> Em có thể giúp gì cho Anh/Chị ạ?</p>
+            </div>
+            <div class="chat-footer">
+                <input type="text" id="chat-input" placeholder="Viết phản hồi..." />
+                <button type="button" id="chat-send">Gửi</button>
+            </div>
+        </div>
+    </div>
+   
+    <script src="assets/js/main.js"></script>
+    <script src="/assets\lib\jquery-3.7.1.min.js"></script>
+    <script src="assets\js\start.js"></script>
+    <script src="assets/js/chat_bot.js"></script>
+    <script src="assets/js/search.js"></script>
+    <script>
+        $(document).ready(function () {
+            main.init();
+            main.eventAddCart();
+        });
+    </script>
+</body>
+</html>

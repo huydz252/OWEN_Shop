@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="icon" href="assets/imgs/icon_shoppe.png" type="image/png">
+    <title>Owen</title>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="assets\font\fontawesome-free-6.5.2-web\css\all.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/chat_bot.css">
+
+</head>
+<body>
+    <!-- navbar -->
+    <section id="header">
+        <a class="logo" href="index.html">
+            <img src="assets/imgs/logo.png" alt="">
+        </a>
+        <div id="navbar">
+            <ul>
+                <li class="search-navbar">
+                    <input type="text" placeholder="tìm kiếm sản phẩm" class="search-input">
+                    <div>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag">
+                    <a href="cart.html">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="totalProduct"></span> 
+                    </a>   
+                </li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-outdent"></i>
+        </div>
+    </section>
+
+    <div id="just-delete">
+        <!-- Home page -->
+        <section id="hero">
+            <h4>Giao dịch trong ưu đãi</h4>
+            <h2>Ưu đãi siêu giá trị</h2>
+            <h1>Trên tất cả sản phẩm</h1>
+            <p>Tiết kiệm nhiều hơn với phiếu giảm giá & Giảm giá sản phẩm đến 70%! </p>
+            <a href="shop.html" style="text-decoration: none;"><button>Mua ngay</button></a>
+        </section>
+
+        <!-- Feature (tính năng) -->
+        <section id="feature">
+            <div class="fea-box">
+                <a href="">
+                    <img src="assets/imgs/features/f1.png" alt="">
+                    <h6 style="background-color: rgb(233, 249, 203);"><a href="">Miễn phí vận chuyển</a></h6>
+                </a>
+            </div>
+            <div class="fea-box">
+                <a href="">
+                    <img src="assets/imgs/features/f2.png" alt="">
+                    <h6 style="background-color: rgb(206, 206, 206);"><a href="">Đặt hàng trực tuyến</a></h6>
+                </a>
+            </div>
+            <div class="fea-box">
+                <a href="">
+                    <img src="assets/imgs/features/f3.png" alt="">
+                    <h6 style="background-color: rgb(247, 214, 219);"><a href="">Tiết kiệm tiền</a></h6>    
+                </a>
+            </div>
+            <div class="fea-box">
+                <a href="">
+                    <img src="assets/imgs/features/f4.png" alt="">
+                    <h6 style="background-color: rgb(168, 204, 210);"><a href="">Khuyến mãi</a></h6>
+                </a>
+            </div>
+            <div class="fea-box">
+                <a href="">
+                    <img src="assets/imgs/features/f5.png" alt="">
+                    <h6 style="background-color: rgb(236, 217, 187);"><a href="">Bán vui vẻ</a></h6>
+                </a>
+            </div>
+            <div class="fea-box">
+                <a href="">
+                    <img src="assets/imgs/features/f6.png" alt="">
+                    <h6 style="background-color: rgb(244, 176, 159);"><a href="">Hỗ trợ F24/7</a></h6>
+                </a>
+            </div>
+        </section>
+
+        <!-- Product -->
+        <section id="product1" class="section-p1" >
+            <h2>Sản phẩm nổi bật</h2>
+            <p>Bộ sưu tập mùa hè thiết kế hiện đại</p>
+    
+            <div class="pro-container all-pro">
+                
+            </div>
+        </section>
+        
+        <!-- Banner small 1 -->
+        <section id="banner" class="section-m1">
+            <h4>Dịch vụ sửa chữa</h4>
+            <h2>Lên đến <span>Giảm 70%</span> - Tất cả các áo phông và phụ kiện</h2>
+            <button class="button-normal">Tìm hiểu thêm</button>
+        </section>
+
+        <!-- New Product -->
+        <div id="just-delete">
+            <section id="product1" class="section-p1">
+                <h2>Hàng mới về</h2>
+                <p>Bộ sưu tập mùa hè thiết kế hiện đại</p>
+                <div class="pro-container new-pro">
+        
+                </div>
+            </section>
+        </div>
+        
+
+        <!-- Banner small 2 -->
+        <section id="sm-banner" class="section-p1">
+            <div class="sm-banner__element-1">
+                <div class="banner-box">
+                    <h4>Ưu đãi điên rồ</h4>
+                    <h4>Mua 1 tặng 1</h4>
+                    <p>Chiếc váy cổ điển đẹp nhất đang được bán tại Aura Store</p>
+                    <button class="button-normal">Tìm hiểu thêm</button>
+                </div>
+                <div class="banner-box">
+                    <h4>Áo Phông</h4>
+                    <h4>Mùa sắp tới</h4>
+                    <p>Khám phá xu hướng thời trang mới nhất</p>
+                    <button class="button-normal">Tìm hiểu thêm</button>
+                </div>
+            </div>
+            <div class="sm-banner__element-2">
+                <div class="banner-box">
+                    <h4>Mùa giảm giá</h4>
+                    <p>Bộ sưu tập mùa đông GIẢM 50%</p>
+                </div>
+                <div class="banner-box">
+                    <h4>Phụ kiện</h4>
+                    <p>Ưu đãi lớn cho phụ kiện trang sức!</p>              
+                </div>
+                <div class="banner-box">
+                    <h4>Xuân/Hè</h4>           
+                    <p>Xuân/hè 2024</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Banner small 3 (new letter) -->
+        <section id="sm-banner3" class="section-p1">
+            <div class="sm-banner-left">
+                <h2>Đăng ký nhận bản tin</h2>
+                <h4>Nhận thông tin cập nhật qua Email về sản phẩm mới nhất của chúng tôi và các ưu đãi đặc biệt.</h4>
+            </div>
+            <div class="sm-banner-right">
+                <input type="text" placeholder="Your email address">
+                <button class="to-register-button">Đăng ký</button>
+            </div>
+        </section>
+    </div>
+
+    <!-- search -->
+    <section id="product1" class="section-p1">
+        <div class="pro-container2" id="search-pro">
+            
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section id="footer">
+        <div class="info-contacts">
+            <img src="assets\imgs\logo.png" alt="">
+            <strong>Thông tin liên hệ</strong>
+            <p><strong>Địa chỉ:</strong>Viet Nam, Da Nang city, Quan Ngu Hanh Son</p>
+            <p><strong>Số điện thoại: </strong> 0813118974</p>
+            <p><strong>Email: </strong>252quanghuy@gmail.com</p>
+            <p><strong>Giờ: </strong>9:00-21:00, Mon-Sat</p>
+            <div class="follow-us">
+                <a href="https://www.facebook.com/huydz.252" >
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+        <div class="contact-abouts">
+            <strong>Liên hệ</strong>
+            <p>Về chúng tôi</p>
+            <p>Thông tin giao hàng</p>
+            <p>Chính sách bảo mật</p>
+            <p>Điều khoản & Điều kiện</p>
+            <p>Liên hệ chúng tôi</p>
+        </div>
+        <div class="our-account">
+            <strong>Tài khoản của tôi</strong>
+            <p>Đăng nhập</p>
+            <p>Xem giỏ hàng</p>
+            <p>Sản phẩm yêu thích</p>
+            <p>Theo dõi đơn hàng của tôi</p>
+            <p>Trợ giúp</p>
+        </div>
+        <div class="dowload-app">
+            <strong>Tải ứng dụng</strong>
+            <p>Từ App Store hoặc Google Play</p>
+            <div class="imgs-dowload">
+                <img src="assets\imgs\pay\app.jpg" alt="">
+                <img src="assets\imgs\pay\play.jpg" alt="">
+            </div>
+            <p>Cổng thanh toán an toàn</p>
+            <div class="pay">
+                <img src="assets\imgs\pay\pay.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <div class="chat-container">
+        <div class="chat-button" id="chat-button">
+            <img src="assets/imgs/chatbot/messenger.png" alt="Chat Icon">
+        </div>
+        <div class="chat-widget" id="chat-widget">
+            <div class="chat-header">
+                <img src="assets/imgs/chatbot/avatar.jpg" alt="Avatar" class="avatar">
+                <span>Nhân viên chăm sóc từ OWEN</span>
+            </div>
+            <div class="chat-body" id="chat-body">
+                <p style="color: red;">Xin chào! 
+                <br> Em có thể giúp gì cho Anh/Chị ạ?</p>
+            </div>
+            <div class="chat-footer">
+                <input type="text" id="chat-input" placeholder="Viết phản hồi..." />
+                <button type="button" id="chat-send">Gửi</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/assets\lib\jquery-3.7.1.min.js"></script>
+    <script src="assets/js/chat_bot.js"></script>
+    <script src="assets/js/search.js"></script>
+    <script src="assets\js\start.js"></script>
+    <script>
+        document.querySelector('.to-register-button').addEventListener('click', function () {
+            window.location.href = "register-form.html";
+        })
+        $(document).ready(function () {
+            main.init();
+        });
+    </script>
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>

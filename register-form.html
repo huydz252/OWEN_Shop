@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <script src="https://kit.fontawesome.com/4cb150190e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/register.css">
+    <link rel="stylesheet" href="assets/css/chat_bot.css">
+    <style>
+        .title1{
+            font-weight: 450;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        .title2{
+            font-weight: 100;
+            font-size: 16px;
+            opacity: 0.7;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        label{
+            font-size: 14px;
+        }
+        .form-group span{
+            font-weight: 100;
+            font-size: 13px;
+            padding: 0px 0 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="" method="POST" class="form" id="form-1">
+            
+            <h2 class="title1">Đăng Ký</h2>
+            <h2 class="title2">Đăng Ký Để Nhận Những Thông Tin Mới Nhất<i class="fa-solid fa-heart" style="color: #ff0000;"></i></h2>
+            
+            <!-- full name -->
+            <div class="form-group">
+                <label for="fullname" class="form-label">Tên đầy đủ</label>
+                <input id="fullname" type="text" name="fullname" placeholder="VD: Trần Quang Huy" >
+                <span class="form-message"></span>
+            </div>
+            <!-- gender -->
+            <div class="form-group">
+                <label for="gender" class="form-label">Giới tính</label>
+                <div class="gender-radio">
+                    <p>Nam</p>
+                    <input   type="radio" value="male" name="gender" >
+                </div>
+                <div class="gender-radio">
+                    <p>Nữ</p>
+                    <input   type="radio" value="female" name="gender" >                    
+                </div>
+                <span class="form-message"></span>
+            </div>
+            <!-- email -->
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input id="email" type="text" name="email" placeholder="VD: email@gmail.com" >
+                <span class="form-message"></span>
+            </div>
+            <!-- password -->
+            <div class="form-group">
+                <label for="password" class="form-label">Mật khẩu</label>
+                <input id="password" type="text" name="password" placeholder="Nhập mật khẩu">
+                <span class="form-message"></span>
+            </div>
+            <!-- password confirmation -->
+            <div class="form-group">
+                <label for="password-confirmation" class="form-label">Nhập lại mật khẩu</label>
+                <input id="password-confirmation" type="text" name="password-confirmation" placeholder="Nhập lại mật khẩu">
+                <span class="form-message"></span>
+            </div>
+            <button class="form-submit">Đăng ký</button>
+
+        </form>
+
+    </div>
+
+    <div class="chat-container">
+        <div class="chat-button" id="chat-button">
+            <img src="assets/imgs/chatbot/messenger.png" alt="Chat Icon">
+        </div>
+        <div class="chat-widget" id="chat-widget">
+            <div class="chat-header">
+                <img src="assets/imgs/chatbot/avatar.jpg" alt="Avatar" class="avatar">
+                <span>Nhân viên chăm sóc từ OWEN</span>
+            </div>
+            <div class="chat-body" id="chat-body">
+                <p style="color: red;">Xin chào! 
+                <br> Em có thể giúp gì cho Anh/Chị ạ?</p>
+            </div>
+            <div class="chat-footer">
+                <input type="text" id="chat-input" placeholder="Viết phản hồi..." />
+                <button type="button" id="chat-send">Gửi</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/validator.js"></script>
+    <script src="assets/js/chat_bot.js"></script>
+    <script>
+        Validator({
+            form: '#form-1',
+            formGroupSelector: '.form-group',
+            errorSelector : '.form-message',
+            rules: [
+                //full name
+                Validator.isRequired('#fullname'),
+
+                //gender
+                Validator.isRequired('input[name="gender"]'),
+
+                //test-checkbox
+                Validator.isRequired('input[type="checkbox"]'),
+
+                //province
+                Validator.isRequired('select'),
+
+                // avatar
+                Validator.isRequired('input[type="file"]'),
+
+                //email
+                Validator.isRequired('#email'),
+                Validator.isEmail('#email', 'Vui lòng nhập email hợp lệ'),
+                
+                //password
+                Validator.isRequired('#password'),
+                Validator.isMinLength('#password', 7),
+               
+                //password confirm
+                Validator.isRequired('#password-confirmation'),
+                Validator.isConfirmation('#password-confirmation', function(){
+                    return document.querySelector('#form-1  #password').value
+                }, 'Mật khẩu nhập lại không đúng'),
+            ],
+            onSubmit : function(data){
+                //call API
+                window.location.href = 'index.html';
+            }
+        });
+        Validator({
+            form: '#form-2',
+            formGroupSelector: '.form-group',
+            errorSelector : '.form-message',
+            rules: [
+                //email
+                Validator.isRequired('#email'),
+                Validator.isEmail('#email', 'Vui lòng nhập email hợp lệ'),
+                
+                //password
+                Validator.isRequired('#password'),
+                Validator.isMinLength('#password', 7),              
+            ],
+            onSubmit : function(data){
+                //call API
+                console.log(data);
+            }
+        });
+    </script>
+</body>
+</html>

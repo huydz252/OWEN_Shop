@@ -1,0 +1,579 @@
+[
+    {
+        "id" : 1,
+        "category" : 1,
+        "status" : 0, 
+        "name" : "Áo phông 1",
+        "price" : 42,
+        "details" : "đây là mô tả của sản phẩm áo phông 1",
+        "img" : "aophong1.jpg"
+    },
+    {
+        "id" : 2,
+        "category" : 1,
+        "status" : 1,
+        "name" : "Áo phông 2",
+        "price" : 43,
+        "details" : "đây là mô tả của sản phẩm áo phông 2",
+        "img" : "aophong2.jpg"
+    },
+    {
+        "id" : 3,
+        "category" : 1,
+        "status" : 0,
+        "name" : "Áo phông 3",
+        "price" : 42,
+        "details" : "đây là mô tả của sản phẩm áo phông 3",
+        "img" : "aophong3.jpg"
+    },
+    {
+        "id" : 4,
+        "category" : 1,
+        "status" : 1,
+        "name" : "Áo phông 4",
+        "price" : 45,
+        "details" : "đây là mô tả của sản phẩm áo phông 4",
+        "img" : "aophong4.jpg"
+    },
+    {
+        "id" : 5,
+        "category" : 1,
+        "status" : 0,
+        "name" : "Áo phông 5",
+        "price" : 34,
+        "details" : "đây là mô tả của sản phẩm áo phông 5",
+        "img" : "aophong5.jpg"
+    },
+    {
+        "id" : 6,
+        "category" : 1,
+        "status" : 1,
+        "name" : "Áo phông 6",
+        "price" : 45,
+        "details" : "đây là mô tả của sản phẩm áo phông 6",
+        "img" : "aophong6.jpg"
+    },
+    {
+        "id" : 7,
+        "category" : 1,
+        "status" : 0,
+        "name" : "Áo phông 7",
+        "price" : 54,
+        "details" : "đây là mô tả của sản phẩm áo phông 7",
+        "img" : "aophong7.jpg"
+    },
+    {
+        "id" : 8,
+        "category" : 1,
+        "status" : 1,
+        "name" : "Áo phông 8",
+        "price" : 39,
+        "details" : "đây là mô tả của sản phẩm áo phông 8",
+        "img" : "aophong8.jpg"
+    },
+    {
+        "id" : 9,
+        "category" : 1,
+        "status" : 0,
+        "name" : "Áo phông 9",
+        "price" : 42,
+        "details" : "đây là mô tả của sản phẩm áo phông 9",
+        "img" : "aophong9.jpg"
+    },
+    {
+        "id" : 10,
+        "category" : 2,
+        "status" : 1,
+        "name" : "Áo thun 1",
+        "price" : 41,
+        "details" : "đây là mô tả của sản phẩm áo thun 1",
+        "img" : "aothun1.jpg"
+    },
+    {
+        "id" : 11,
+        "category" : 2,
+        "status" : 0,
+        "name" : "Áo thun 2",
+        "price" : 36,
+        "details" : "đây là mô tả của sản phẩm áo thun 2",
+        "img" : "aothun2.jpg"
+    },
+    {
+        "id" : 12,
+        "category" : 2,
+        "status" : 1,
+        "name" : "Áo thun 3",
+        "price" : 35,
+        "details" : "đây là mô tả của sản phẩm áo thun 3",
+        "img" : "aothun3.jpg"
+    },
+    {
+        "id" : 13,
+        "category" : 2,
+        "status" : 0,
+        "name" : "Áo thun 4",
+        "price" : 60,
+        "details" : "đây là mô tả của sản phẩm áo thun 4 ",
+        "img" : "aothun4.jpg"
+    },
+    {
+        "id" : 14,
+        "category" : 2,
+        "status" : 1,
+        "name" : "Áo thun 5",
+        "price" : 45,
+        "details" : "đây là mô tả của sản phẩm áo thun 5",
+        "img" : "aothun5.jpg"
+    },
+    {
+        "id" : 15,
+        "category" : 2,
+        "status" : 0,
+        "name" : "Áo thun 6",
+        "price" : 54,
+        "details" : "đây là mô tả của sản phẩm áo thun 6",
+        "img" : "aothun6.jpg"
+    },
+    {
+        "id" : 16,
+        "category" : 2,
+        "status" : 1,
+        "name" : "Áo thun 7",
+        "price" : 46,
+        "details" : "đây là mô tả của sản phẩm áo thun 7",
+        "img" : "aothun7.jpg"
+    },
+    {
+        "id" : 17,
+        "category" : 2,
+        "status" : 0,
+        "name" : "Áo thun 8",
+        "price" : 45,
+        "details" : "đây là mô tả của sản phẩm áo thun 8",
+        "img" : "aothun8.jpg"
+    },
+    {
+        "id" : 18,
+        "category" : 2,
+        "status" : 1,
+        "name" : "Áo thun 9",
+        "price" : 41,
+        "details" : "đây là mô tả của sản phẩm áo thun 9",
+        "img" : "aothun9.jpg"
+    },
+    {
+        "id" : 19,
+        "category" : 3,
+        "status" : 0,
+        "name" : "Đồ bộ 1",
+        "price" : 48,
+        "details" : "đây là mô tả của sản phẩm đồ bộ 1",
+        "img" : "dobo1.jpg"
+    },
+    {
+        "id" : 20,
+        "category" : 3,
+        "status" : 1,
+        "name" : "Đồ bộ 2",
+        "price" : 36,
+        "details" : "đây là mô tả của sản phẩm đồ bộ 2",
+        "img" : "dobo2.jpg"
+    },
+    {
+        "id" : 21,
+        "category" : 3,
+        "status" : 0,
+        "name" : "Đồ bộ 3",
+        "price" : 40,
+        "details" : "đây là mô tả của sản phẩm đồ bộ 3",
+        "img" : "dobo3.jpg"
+    },
+    {
+        "id" : 22,
+        "category" : 3,
+        "status" : 1,
+        "name" : "Đồ bộ 4",
+        "price" : 38,
+        "details" : "đây là mô tả của sản phẩm đồ bộ 4",
+        "img" : "dobo4.jpg"
+    },
+    {
+        "id" : 23,
+        "category" : 3,
+        "status" : 0,
+        "name" : "Đồ bộ 5",
+        "price" : 36,
+        "details" : "đây là mô tả của sản phẩm đồ bộ 5",
+        "img" : "dobo5.jpg"
+    },
+    {
+        "id" : 24,
+        "category" : 3,
+        "status" : 1,
+        "name" : "Đồ bộ 6",
+        "price" : 39,
+        "details" : "đây là mô tả của sản phẩm đồ bộ 6",
+        "img" : "dobo6.jpg"
+    },
+    {
+        "id" : 25,
+        "category" : 3,
+        "status" : 0,
+        "name" : "Đồ bộ 7",
+        "price" : 37,
+        "details" : "đây là mô tả của sản phẩm đồ bộ 7",
+        "img" : "dobo7.jpg"
+    },
+    {
+        "id" : 26,
+        "category" : 3,
+        "status" : 1,
+        "name" : "Đồ bộ 8",
+        "price" : 36,
+        "details" : "đây là mô tả của sản phẩm đồ bộ 8",
+        "img" : "dobo8.jpg"
+    },
+    {
+        "id" : 27,
+        "category" : 3,
+        "status" : 0,
+        "name" : "Đồ bộ 9",
+        "price" : 36,
+        "details" : "đây là mô tả của sản phẩm đồ bộ 9",
+        "img" : "dobo9.jpg"
+    },
+    {
+        "id" : 28,
+        "category" : 3,
+        "status" : 1,
+        "name" : "Đồ bộ 10",
+        "price" : 43,
+        "details" : "đây là mô tả của sản phẩm đồ bộ 10",
+        "img" : "dobo10.jpg"
+    },
+    {
+        "id": 29,
+        "category": 4,
+        "status" : 0,
+        "name": "Hoodie 1",
+        "price": 39,
+        "details" : "đây là mô tả của sản phẩm hoodie 1",
+        "img": "hoodie1.jpg"   
+    },
+ 
+   {
+        "id": 30,
+        "category": 4,
+        "status" : 1,
+        "name": "Hoodie 2",
+        "price": 50,
+        "details" : "đây là mô tả của sản phẩm hoodie 2",
+        "img": "hoodie2.jpg"   
+    },
+ 
+   {
+        "id": 31,
+        "category": 4,
+        "status" : 0,
+        "name": "Hoodie 3",
+        "price": 51,
+        "details" : "đây là mô tả của sản phẩm hoodie 3",
+        "img": "hoodie3.jpg"          
+    },
+ 
+   {
+        "id": 32,
+        "category": 4,
+        "status" : 1,
+        "name": "Hoodie 4",
+        "price": 50,
+        "details" : "đây là mô tả của sản phẩm hoodie 4",
+        "img": "hoodie4.jpg"  
+    },
+ 
+   {
+        "id": 33,
+        "category": 4,
+        "status" : 0,
+        "name": "Hoodie 5",
+        "price": 54,
+        "details" : "đây là mô tả của sản phẩm hoodie 5",
+        "img": "hoodie5.jpg"  
+    },
+ 
+   {
+        "id": 34,
+        "category": 4,
+        "status" : 1,
+        "name": "Hoodie 6",
+        "price": 54,
+        "details" : "đây là mô tả của sản phẩm hoodie 6",
+        "img": "hoodie6.jpg"   
+    },
+ 
+   {
+        "id": 35,
+        "category": 4,
+        "status" : 0,
+        "name": "Hoodie 7",
+        "price": 51,
+        "details" : "đây là mô tả của sản phẩm hoodie 7",
+        "img": "hoodie7.jpg"   
+    },
+ 
+   {
+        "id": 36,
+        "category": 4,
+        "status" : 1,
+        "name": "Hoodie 8",
+        "price": 50,
+        "details" : "đây là mô tả của sản phẩm hoodie 8",
+        "img": "hoodie8.jpg"   
+    },
+ 
+   {
+        "id": 37,
+        "category": 4,
+        "status" : 0,
+        "name": "Hoodie 9",
+        "price": 55,
+        "details" : "đây là mô tả của sản phẩm hoodie 9",
+        "img": "hoodie9.jpg"   
+    },
+ 
+   {
+        "id": 38,
+        "category": 4,
+        "status" : 1,
+        "name": "Hoodie 10",
+        "price": 57,
+        "details" : "đây là mô tả của sản phẩm hoodie 10",
+        "img": "hoodie10.jpg"    
+    },
+
+    {
+        "id": 39,
+        "category": 5,
+        "status" : 0,
+        "name": "Quần jeans 1",
+        "price": 38,
+        "details" : "đây là mô tả của sản phẩm quần jeans 1",
+        "img": "quanjean1.jpg"
+    },
+    {
+        "id": 40,
+        "category": 5,
+        "status" : 1,
+        "name": "Quần jeans 2",
+        "price": 48,
+        "details" : "đây là mô tả của sản phẩm quần jeans 2",
+        "img": "quanjean2.jpg"
+    },
+    {
+        "id": 41,
+        "category": 5,
+        "status" : 0,
+        "name": "Quần jeans 3",
+        "price": 45,
+        "details" : "đây là mô tả của sản phẩm quần jeans 3",
+        "img": "quanjean3.jpg"
+    },
+    {
+        "id": 42,
+        "category": 5,
+        "status" : 1,
+        "name": "Quần jeans 4",
+        "price": 45,
+        "details" : "đây là mô tả của sản phẩm quần jeans 4",
+        "img": "quanjean4.jpg"
+    },
+    {
+        "id": 43,
+        "category": 5,
+        "status" : 0,
+        "name": "Quần jeans 5",
+        "price": 56,
+        "details" : "đây là mô tả của sản phẩm quần jeans 5",
+        "img": "quanjean5.jpg"
+    },
+    {
+        "id": 44,
+        "category": 5,
+        "status" : 1,
+        "name": "Quần jeans 6",
+        "price": 45,
+        "details" : "đây là mô tả của sản phẩm quần jeans 6",
+        "img": "quanjean6.jpg"
+    },
+    {
+        "id": 45,
+        "category": 5,
+        "status" : 0,
+        "name": "Quần jeans 7",
+        "price": 49,
+        "details" : "đây là mô tả của sản phẩm quần jeans 7",
+        "img": "quanjean7.jpg"
+    },
+    {
+        "id": 46,
+        "category": 5,
+        "status" : 1,
+        "name": "Quần jeans 8",
+        "price": 48,
+        "details" : "đây là mô tả của sản phẩm quần jeans 8",
+        "img": "quanjean8.jpg"
+    },
+    {
+        "id": 47,
+        "category": 5,
+        "status" : 0,
+        "name": "Quần jeans 9",
+        "price": 44,
+        "details" : "đây là mô tả của sản phẩm quần jeans 9",
+        "img": "quanjean9.jpg"
+    },
+    {
+        "id": 48,
+        "category": 6,
+        "status" : 1,
+        "name": "Quần ngắn 1",
+        "price": 43,
+        "details" : "đây là mô tả của sản phẩm quần ngắn 1",
+        "img": "quanngan1.jpg"
+    },
+    {
+        "id": 49,
+        "category": 6,
+        "status" : 1,
+        "name": "Quần ngắn 2",
+        "price": 43,
+        "details" : "đây là mô tả của sản phẩm quần ngắn 2",
+        "img": "quanngan2.jpg"
+    },
+    {
+        "id": 50,
+        "category": 6,
+        "status" : 1,
+        "name": "Quần ngắn 3",
+        "price": 43,
+        "details" : "đây là mô tả của sản phẩm quần ngắn 3",
+        "img": "quanngan3.jpg"
+    },
+    {
+        "id": 51,
+        "category": 6,
+        "status" : 0,
+        "name": "Quần ngắn 4",
+        "price": 38,
+        "details": "Đây là mô tả của sản phẩm quần ngắn 4",
+        "img": "quanngan4.jpg"
+    },
+    {
+        "id": 52,
+        "category": 6,
+        "status" : 0,
+        "name": "Quần ngắn 5",
+        "price": 52,
+        "details" : "đây là mô tả của sản phẩm quần ngắn 5",
+        "img": "quanngan5.jpg"
+    },
+    {
+        "id": 53,
+        "category": 6,
+        "status" : 1,
+        "name": "Quần ngắn 6",
+        "price": 45,
+        "details" : "đây là mô tả của sản phẩm quần ngắn 6",
+        "img": "quanngan6.jpg"
+    },
+    {
+        "id": 54,
+        "category": 6,
+        "status" : 0,
+        "name": "Quần ngắn 7",
+        "price": 39,
+        "details" : "đây là mô tả của sản phẩm quần ngắn 7",
+        "img": "quanngan7.jpg"
+    },
+    {
+        "id": 55,
+        "category": 6,
+        "status" : 1,
+        "name": "Quần ngắn 8",
+        "price": 48,
+        "details" : "đây là mô tả của sản phẩm quần ngắn 8",
+        "img": "quanngan8.jpg"
+    },
+    {
+        "id": 56,
+        "category": 6,
+        "status" : 0,
+        "name": "Quần ngắn 9",
+        "price": 33,
+        "details" : "đây là mô tả của sản phẩm quần ngắn 9",
+        "img": "quanngan9.jpg"
+    },
+    {
+        "id": 57,
+        "category": 6,
+        "status" : 0,
+        "name": "Quần ngắn 10",
+        "price": 37,
+        "details" : "đây là mô tả của sản phẩm quần ngắn 10",
+        "img": "quanngan10.jpg"
+    },
+    {
+        "id": 58,
+        "category": 7,
+        "status" : 1,
+        "name": "Sơ mi 1",
+        "price": 39,
+        "img": "somi1.jpg",      
+        "details" : "Đây là mô tả của sản phẩm sơ mi 1" 
+    },
+    {
+        "id": 59,
+        "category": 7,
+        "status" : 1,
+        "name": "Sơ mi 2",
+        "price": 39,
+        "img": "somi2.jpg",      
+        "details" : "Đây là mô tả của sản phẩm sơ mi 2" 
+    },
+    {
+        "id": 60,
+        "category": 7,
+        "status" : 1,
+        "name": "Sơ mi 3",
+        "price": 39,
+        "img": "somi3.jpg",      
+        "details" : "Đây là mô tả của sản phẩm sơ mi 3" 
+    },
+    {
+        "id": 61,
+        "category": 7,
+        "status" : 0,
+        "name": "Sơ mi 4",
+        "price": 30,
+        "img": "somi4.jpg",      
+        "details" : "Đây là mô tả của sản phẩm sơ mi 4"
+    },
+    {
+        "id": 62,
+        "category": 7,
+        "status" : 1,
+        "name": "Sơ mi 5",
+        "price": 44,
+        "img": "somi5.jpg",
+       "details" : "Đây là mô tả của sản phẩm sơ mi 5" 
+    },   
+    {
+        "id": 63,
+        "category": 7,
+        "status" : 0,
+        "name": "Sơ mi 6",
+        "price": 33,
+        "details" : "đây là mô tả của sản phẩm sơ mi 6",
+        "img": "somi6.jpg" 
+    }
+]
